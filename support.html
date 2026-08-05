@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unlike — Support</title>
+<style>
+  :root {
+    --ink: #1b1e23; --muted: #5f646d; --bg: #f4f1ea; --panel: #fffdf8;
+    --edge: #ddd8ce; --accent: #3a5aa8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #e8ecff; --muted: #8891b8; --bg: #0a0d1a; --panel: #1a2140;
+      --edge: #2c355c; --accent: #8aa4ec;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 3rem 1.25rem 5rem; background: var(--bg); color: var(--ink);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  }
+  main { max-width: 40rem; margin: 0 auto; }
+  h1 { font-size: 2rem; line-height: 1.15; margin: 0 0 .35rem; letter-spacing: -.02em; }
+  .sub { color: var(--muted); margin: 0 0 2.5rem; }
+  h2 { font-size: 1.075rem; margin: 2.5rem 0 .6rem; letter-spacing: -.01em; }
+  h3 { font-size: 1rem; margin: 1.6rem 0 .35rem; letter-spacing: -.01em; }
+  p, li { color: var(--ink); }
+  ul { padding-left: 1.15rem; }
+  li { margin: .3rem 0; }
+  .lede {
+    background: var(--panel); border: 1px solid var(--edge); border-radius: 14px;
+    padding: 1.1rem 1.25rem; margin: 0 0 1rem;
+  }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: .875rem; margin-top: 3rem;
+           border-top: 1px solid var(--edge); padding-top: 1.25rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Unlike — Support</h1>
+  <p class="sub">Help, answers, and how to reach a human.</p>
+
+  <p class="lede"><strong>Unlike is a logic puzzle.</strong> Every cell is either
+  solid or outlined. A number on a cell counts how many of its neighbours are
+  <em>unlike</em> it — different from it. Every board has exactly one solution,
+  and every solution can be reached by pure deduction. You never have to guess.</p>
+
+  <h2>Playing</h2>
+
+  <h3>I am stuck</h3>
+  <p>Two tools sit under every board. <strong>Hint</strong> points out a cell you
+  have enough information to decide right now, and explains why. <strong>Check</strong>
+  tells you whether anything you have placed conflicts with the solution, and
+  how many cells are still to go. Using either costs you stars on that level,
+  nothing more — your progress is never blocked.</p>
+
+  <h3>Numbers turn red</h3>
+  <p>A clue turns red when it can no longer be satisfied, and dims when it is
+  already satisfied. Red is not a penalty; it is the board telling you where the
+  mistake is. Undo as far back as you need, or use <strong>Reset</strong> to
+  clear the board and keep the puzzle.</p>
+
+  <h3>I want to learn the rules properly</h3>
+  <p>The tutorial on the home screen walks through every rule on real boards in
+  about ninety seconds. It can be replayed at any time.</p>
+
+  <h3>Levels, the daily board, and free play</h3>
+  <p>The level ladder is identical on every device — level 40 is the same puzzle
+  for everyone. The daily board rolls over at your local midnight, and everyone
+  playing on the same calendar date gets the same board. Free play generates an
+  endless supply at whichever difficulty you pick.</p>
+
+  <h2>Purchases</h2>
+
+  <h3>Restoring what you bought</h3>
+  <p>Purchases are tied to your Apple Account, so a new device or a reinstall can
+  get them back at no cost. Tap <strong>Restore</strong> on the home screen next
+  to <em>Remove ads</em>, or <strong>Restore purchases</strong> at the bottom of
+  the theme store. Both restore everything you own — ad removal, individual
+  themes, and the theme bundle.</p>
+
+  <h3>A purchase did not unlock</h3>
+  <p>Try Restore first; it fixes almost every case, including a purchase that was
+  interrupted. If it still does not appear, email me with the date of the
+  purchase and I will sort it out.</p>
+
+  <h3>Refunds</h3>
+  <p>All purchases go through Apple, so refunds do too. Use
+  <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> — I have
+  no way to issue a refund myself.</p>
+
+  <h2>Progress and data</h2>
+
+  <h3>My progress disappeared</h3>
+  <p>Progress is stored on the device itself, not on a server, and there is no
+  account to sign into. Deleting the app deletes it, and it does not travel to a
+  new phone. Purchases are the exception — those live with your Apple Account and
+  can always be restored.</p>
+
+  <h3>Starting over</h3>
+  <p><em>Settings → Reset all progress</em> clears levels, stars, times, and
+  earned themes. It also clears the app's record of what you have bought — tap
+  <strong>Restore</strong> afterwards to bring purchased themes and ad removal
+  back. Apple keeps that record, so nothing you paid for is lost.</p>
+
+  <h2>Ads and tracking</h2>
+  <p>The free version shows a full-screen ad after some completed levels — never
+  in the middle of a puzzle. On first launch iOS asks whether you allow tracking:
+  declining changes nothing about the game, only whether the ads are personalised.
+  You can change that answer any time in <em>Settings → Privacy &amp; Security →
+  Tracking</em>. Buying <strong>Remove Ads</strong> ends advertising permanently.</p>
+
+  <h2>Accessibility</h2>
+  <p>Unlike supports Dynamic Type throughout, and every cell is labelled for
+  VoiceOver with its position, state, clue, and whether that clue is satisfied.
+  In Settings there is a <strong>high contrast</strong> option that strengthens
+  the difference between solid and outlined cells, and a <strong>reduce
+  motion</strong> option that removes animation. If something is still hard to
+  use, tell me — that is worth fixing.</p>
+
+  <h2>Contact</h2>
+  <p>Bugs, questions, ideas, or a board that seems wrong:
+  <a href="mailto:vinicioscunha1@gmail.com">vinicioscunha1@gmail.com</a>. It is
+  one person answering, so give it a day or two. For a puzzle that looks
+  unsolvable, include the level number — that alone is enough for me to
+  reproduce it exactly.</p>
+
+  <p><a href="index.html">Privacy policy</a></p>
+
+  <footer>Unlike is an independent app. It is not affiliated with Apple Inc.</footer>
+</main>
+</body>
+</html>
